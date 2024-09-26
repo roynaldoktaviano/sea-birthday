@@ -1082,6 +1082,22 @@ video {
   background-image: url('D:/mirzaa/sea-birthdayy/assets/orang.png');
 }
 
+.bg-\[url\(\'https\:\/\/roynaldoktaviano\.github\.io\/sea-birthday\/assets\/bg\.jpg\'\)\]{
+  background-image: url('https://roynaldoktaviano.github.io/sea-birthday/assets/bg.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/roynaldoktaviano\.github\.io\/sea-birthday\/assets\/bg\.png\'\)\]{
+  background-image: url('https://roynaldoktaviano.github.io/sea-birthday/assets/bg.png');
+}
+
+.bg-\[url\(\'https\:\/\/roynaldoktaviano\.github\.io\/sea-birthday\/assets\/bgg-02\.png\'\)\]{
+  background-image: url('https://roynaldoktaviano.github.io/sea-birthday/assets/bgg-02.png');
+}
+
+.bg-\[url\(\'https\:\/\/roynaldoktaviano\.github\.io\/sea-birthday\/assets\/orang\.png\'\)\]{
+  background-image: url('https://roynaldoktaviano.github.io/sea-birthday/assets/orang.png');
+}
+
 .bg-contain{
   background-size: contain;
 }

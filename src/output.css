@@ -1130,6 +1130,10 @@ video {
   background-position: top right -24vw;
 }
 
+.bg-\[top_right_-18vw\]{
+  background-position: top right -18vw;
+}
+
 .bg-no-repeat{
   background-repeat: no-repeat;
 }

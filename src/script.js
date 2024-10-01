@@ -42,7 +42,7 @@ buttonBuka.addEventListener('click', ()=>{
     kuda.classList.add('animate-naik');
     // back.classList.add('animate-naik2');
     back.classList.add('animate-naik3');
-    // back.classList.add('hidden');
+    back.classList.add('hidden');
     content.classList.remove('hidden');
     cont.classList.remove('overflow-hidden');
 

@@ -624,10 +624,6 @@ video {
   margin-top: -20vw;
 }
 
-.mt-\[10vh\]{
-  margin-top: 10vh;
-}
-
 .mt-\[10vw\]{
   margin-top: 10vw;
 }
@@ -674,18 +670,6 @@ video {
 
 .mt-auto{
   margin-top: auto;
-}
-
-.mt-\[25vh\]{
-  margin-top: 25vh;
-}
-
-.mt-\[35vh\]{
-  margin-top: 35vh;
-}
-
-.mt-\[30vh\]{
-  margin-top: 30vh;
 }
 
 .box-border{

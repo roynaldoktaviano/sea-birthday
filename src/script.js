@@ -9,7 +9,7 @@ let tgl = document.querySelector('#tanggal')
 let info = document.querySelector('#info')
 let nama = document.querySelector('#nama')
 let foto = document.querySelector('#foto')
-let ket = document.querySelector('#ket')
+// let ket = document.querySelector('#ket')
 let content = document.querySelector('#content')
 let body = document.querySelector('body')
 let kue = document.querySelector('#kue')
@@ -51,7 +51,7 @@ buttonBuka.addEventListener('click', ()=>{
     tgl.classList.add('animate-opa2');
     info.classList.add('animate-opa3');
     nama.classList.add('animate-opa4');
-    ket.classList.add('animate-opa5');
+    // ket.classList.add('animate-opa5');
     kue.classList.add('animate-opa5');
 
     foto.classList.add('animate-opa6');

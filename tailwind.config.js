@@ -87,7 +87,8 @@ module.exports = {
 
         naik3:{
           '0%':{
-            transform: 'translate(-1px, 10px)'
+            transform: 'translate(-1px, 10px)',
+            display: 'block'
           },
           '100%' :{
             transform: 'translate(-1px, -200vw)',

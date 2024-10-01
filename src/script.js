@@ -14,6 +14,8 @@ let content = document.querySelector('#content')
 let body = document.querySelector('body')
 let kue = document.querySelector('#kue')
 let rsvp = document.querySelector('#rsvp')
+let cont = document.querySelector('#cont')
+
 
 
 
@@ -28,7 +30,7 @@ buttonBuka.addEventListener('click', ()=>{
     bungaKanan.classList.add('animate-kanan');
     bungaKiri.classList.add('animate-kiri');
     tulis.classList.add('animate-opa');
-    ikanKanan.classList.add('animate-kanan');
+    // ikanKanan.classList.add('animate-kanan');
     // ikanKiri.classList.add('animate-kiri');
     cumi.classList.add('animate-naik');
     lumba.classList.remove('animate-putar');
@@ -39,7 +41,11 @@ buttonBuka.addEventListener('click', ()=>{
 
     kuda.classList.add('animate-naik');
     back.classList.add('animate-naik2');
+    back.classList.add('animate-naik3');
+    // back.classList.add('hidden');
     content.classList.remove('hidden');
+    cont.classList.remove('overflow-hidden');
+
 
     // tgl.classList.add('delay-150');
     tgl.classList.add('animate-opa2');

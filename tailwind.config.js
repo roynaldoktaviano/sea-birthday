@@ -84,6 +84,16 @@ module.exports = {
             transform: 'translate(-1px, -200vw)'
           }
         },
+
+        naik3:{
+          '0%':{
+            transform: 'translate(-1px, 10px)'
+          },
+          '100%' :{
+            transform: 'translate(-1px, -200vw)',
+            display: 'none',
+          }
+        },
         cumi:{
           '0%, 100%':{
             transform: 'translate(10px, 10px)'
@@ -128,7 +138,7 @@ module.exports = {
         opa6: 'opa2 0.6s ease-in-out 0.9s forwards ',
         bgTurun: 'bgTurun 0.6s ease-in-out 1s forwards ',
         swim: 'berenang 8s ease-in-out infinite',
-
+        naik3: 'naik3 1s ease-in-out forwards',
 
 
       },

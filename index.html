@@ -6,207 +6,291 @@
 		<title>Birthday Invitation of _____</title>
 		<link href="./src/output.css" rel="stylesheet" />
 	</head>
-	<body class="overflow-hidden">
-		<div
-			class="bg-[#fff] bg-top bg-contain bg-no-repeat w-full h-screen text-center"
-			id="awal"
-		>
-			<div class="overflow-hidden z-50">
-				<div
-					class="bg-[url('https://roynaldoktaviano.github.io/sea-birthday/assets/bg.png')] w-full h-full bg-cover bg-center absolute max-w-[600px] mx-auto"
-					id="back"
-				></div>
-				<div
-					class="flex flex-col h-full w-full justify-between absolute max-w-[600px]"
-				>
-					<div class="flex flex-col justify-between">
-						<div class="grid grid-cols-4 justify-between">
+	<body>
+		<div id="cont" class="overflow-hidden w-full h-screen">
+			<div
+				class="max-w-[450px] overflow-hidden mx-auto h-screen bg-cover bg-[url('https://roynaldoktaviano.github.io/sea-birthday/assets/bg.png')]"
+				id="back"
+			>
+				<div class="grid grid-rows-4 w-full h-full text-center">
+					<div>
+						<div class="grid grid-cols-4 lg:grid-cols-3 justify-between w-full">
 							<img
 								src="./assets/kd.png"
 								alt=""
-								class="w-[25vw] object-contain animate-cumi"
+								class="w-[25vw] lg:w-[8vw] object-contain animate-cumi"
 								id="cumi"
 							/>
 							<img
 								src="./assets/cb.png"
 								alt=""
-								class="w-[100vw] object-contain animate-putar col-span-2"
+								class="w-[100vw] lg:w-[10vw] object-contain animate-putar lg:col-span-1 col-span-2"
 								id="lumba"
 							/>
 							<img
 								src="./assets/cm.png"
 								alt=""
-								class="w-[25vw] object-contain animate-naktur"
+								class="w-[25vw] lg:w-[6vw] object-contain animate-naktur"
 								id="kuda"
 							/>
 						</div>
-
-						<!-- <div class="flex justify-between">
-							<img
-								src="./assets/ikn.png"
-								alt=""
-								class="w-[30vw] object-contain ikankiri"
-							/>
-							<img
-								src="./assets/kecil.png"
-								alt=""
-								class="w-[40vw] object-contain ikankanan"
-							/>
-						</div> -->
 					</div>
-
-					<div class="flex overflow-hidden justify-between">
-						<img
-							src="./assets/binga.png"
-							alt=""
-							class="w-[45vw] object-contain bungakiri"
-						/>
-						<!-- <img src="./assets/ikan.png" alt="" class="w-[30vw] object-contain" /> -->
-						<img
-							src="./assets/bunga.png"
-							alt=""
-							class="w-[45vw] object-contain bungakanan"
-						/>
-					</div>
-				</div>
-				<div class="flex h-full absolute w-full pt-[12vw] max-w-[600px]">
-					<div class="m-auto " id="tulisan">
-						<div>
-							<p class="text-[22vw] text-left text-white font-['Allura'] drop-shadow-md">Pascal</p>
-							<p class="text-[22vw] text-right text-white font-['Allura'] pl-[20vw] drop-shadow-md mt-[-10vw]">Birthday</p>
-						</div>
-
-						<img
-								src="./assets/ikn.png"
-								alt=""
-								class="w-[40vw] object-contain ikankanan animate-swim"
-							/>
-						
-						<div class="relative">
-							<img
-								src="./assets/btg.png"
-								alt=""
-								class="w-[30vw] object-contain ikankanan absolute top-[20vw] z-[10]"
-							/>
-							<button
+					<div class="row-span-2 pt-[4vh]" id="tulisan">
+						<p
+							class="text-[12vw] lg:text-[3vw] text-center text-white font-['Allura'] drop-shadow-md"
+						>
+							Pascal
+							<span class="text-[18vw] lg:text-[4vw] mx-[1vw]"> 7th </span>
+							Birthday
+						</p>
+						<p
+							class="text-white text-[6.5vw] lg:text-[1vw] drop-shadow-md font-['Itim']"
+						>
+							12 Oktober 2024
+						</p>
+						<div
+							class="w-[50vw] h-[50vw] lg:w-[12vw] lg:h-[12vw] rounded-full mt-[8vw] lg:mt-[2vw] mx-auto border-[1vw] lg:border-[0.5vw] bg-white bg-[url('https://roynaldoktaviano.github.io/sea-birthday/assets/orang.png')] drop-shadow-lg border-[#08203F] bg-top"
+							id="foto"
+						></div>
+						<button
 							id="buka"
-							class="px-[8vw] mt-[35vw] rounded-full text-white text-[7vw] font-['Luckiest_Guy'] bg-[#c5b937] py-[3vw] z-[20] relative"
+							class="px-[8vw] mt-[8vw] rounded-full text-white text-[7vw] lg:text-[1.5vw] lg:mt-[2vw] font-['Allura'] bg-[#08203F] py-[3vw] z-[20] relative lg:py-[1vw] lg:px-[3vw]"
 						>
 							Buka Undangan
 						</button>
+					</div>
+					<div class="mt-auto">
+						<div class="grid grid-cols-2 justify-between">
+							<img
+								src="./assets/binga.png"
+								alt=""
+								class="w-[45vw] lg:w-[20vw] object-contain bungakiri"
+							/>
+							<!-- <img src="./assets/ikan.png" alt="" class="w-[30vw] object-contain" /> -->
+							<img
+								src="./assets/bunga.png"
+								alt=""
+								class="w-[45vw] lg:w-[20vw] object-contain bungakanan"
+							/>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="overflow-hidden">
-				<div
-					class="w-full pb-[10vw] bg-[url('https://roynaldoktaviano.github.io/sea-birthday/assets/bg.jpg')] opacity-0 hidden rounded-b-full"
-					id="content"
-				>
-					<div
-						class="flex w-full justify-between items-center px-[15vw] pt-[8vw] opacity-0"
-						id="tanggal"
-					>
-						<div class="py-[4vw] border-y border-y-black">
-							<p class="text-[6vw] font-['Itim'] text-[#c5b937]">Sabtu</p>
-						</div>
-						<div>
-							<p class="text-[15vw] font-bold font-['Itim'] text-[#c5b937]">12</p>
-						</div>
-
-						<div class="py-[4vw] border-y border-y-black">
-							<p class="text-[6vw] font-['Itim'] text-[#c5b937]">Oktober</p>
-						</div>
-					</div>
-
-					<div class="mt-[2vh] opacity-0" id="info">
-						<p class="text-[7vw] font-['Itim'] text-[#8d9bf7]">14.00</p>
-						<p class="text-[7vw] font-['Itim'] text-[#8d9bf7]">Rumah Alam</p>
-						<p class="text-[7vw] font-['Itim'] text-[#8d9bf7]">Jl. Ring Road</p>
-					</div>
-
-					<div class="mt-[2vh] opacity-0" id="ket">
-						<p class="text-[7vw] font-bold font-['Itim']">Keterangan :</p>
-						<p class="text-[7vw] font-['Itim'] text-[#c5b937]">Membawa Baju Renang</p>
-					</div>
-
-					<div class="mt-[3vh] px-[8vw] opacity-0" id="nama">
-						<p class="text-[5vw] font-['Itim']">Undangan Ulang Tahun</p>
-						<div class="px-[4vw] py-[2vw] rounded-full bg-[#eceeff] mt-[2vw]">
-							<p class="text-[#8d9bf7] text-[6vw] font-['Luckiest_Guy']">
-								Blessed Pascal Edenheitzer Bawole
-							</p>
-						</div>
-					</div>
-					<div
-						class="w-[60vw] opacity-0 h-[60vw] rounded-full mt-[3vh] mx-auto border-[2vw] bg-white bg-[url('https://roynaldoktaviano.github.io/sea-birthday/assets/orang.png')]  border-[#c5b937] bg-top"
-						id="foto"
-					></div>
-				</div>
-
-				<div class="flex items-end justify-between mt-[-20vw] z-50 relative">
-					<!-- <img
-						src="./assets/gurita.png"
-						alt=""
-						class="w-[7vw] drop-shadow-lg object-contain animate-cumi opacity-0"
-						id="cumi2"
-					/> -->
-					<img
-						src="./assets/ccs.png"
-						alt=""
-						class="w-[100vw] object-contain opacity-0 drop-shadow-xl"
-						id="kue"
-					/>
-					<!-- <img
-						src="./assets/kuda.png"
-						alt=""
-						class="w-[20vw] object-contain animate-naktur opacity-0"
-						id="kuda2" -->
-					<!-- /> -->
-				</div>
-				<div
-					class="h-screen bg-[url('https://roynaldoktaviano.github.io/sea-birthday/assets/bgg-02.png')] bg-cover pt-[4vh] hidden" id="rsvp"
-				>
-					<div class="flex flex-col justify-between h-full">
-						<div class="flex justify-between">
-							<img
-							src="./assets/oo.png"
+			<div
+				class="max-w-[450px] w-full h-screen pb-[10vw] bg-[url('https://roynaldoktaviano.github.io/sea-birthday/assets/bg.jpg')] rounded-b-full"
+				id="content"
+			>
+				<div class="w-full h-screen">
+					<div class="px-[10vw] py-[4vh] text-center">
+						<img
+							src="./assets/orang2.jpg"
 							alt=""
-							class="w-full object-contain bungakiri"
+							class="mx-auto w-[50vw] rounded-xl"
 						/>
+					</div>
+					<p class="text-[#08203F] text-[12vw] text-center font-['Allura']">
+						Blessed Pascal Edenheitzer Bawole
+					</p>
+
+					<p
+						class="font-['Itim'] text-center text-[7vw] text-[#08203F] mt-[4vh]"
+					>
+						is Turning
+					</p>
+
+					<p
+						class="font-['Allura'] text-center text-[7vw] text-[#08203F] mt-[4vh]"
+					>
+						<span class="text-[18vw] mx-[3vw]">7th</span> Years Old
+					</p>
+
+					<img
+						src="./assets/cb.png"
+						alt=""
+						class="w-[50vw] object-contain animate-putar mx-auto"
+						id="lumba"
+					/>
+				</div>
+				<div class="h-screen w-full">
+					<div class="mx-[7vh] mt-[10vh]">
+
+						<div class="w-full text-center mt-[6vw]">
+							<div
+								class="grid grid-cols-2 px-8 md:flex text-center gap-6 self-center"
+								style="justify-content: center"
+							>
+								<div>
+									<div class="px-5 py-2 bg-[#08203F] rounded-xl">
+										<p id="day" class="text-white text-4xl">1</p>
+									</div>
+									<p class="text-[#08203F] font-bold text-xl mt-1">Days</p>
+								</div>
+								<div>
+									<div class="px-5 py-2 bg-[#08203F] rounded-xl">
+										<p id="hours" class="text-white text-4xl">1</p>
+									</div>
+									<p class="text-[#08203F] font-bold text-xl mt-1">Hours</p>
+								</div>
+								<div>
+									<div class="px-5 py-2 bg-[#08203F] rounded-xl">
+										<p id="minutes" class="text-white text-4xl">1</p>
+									</div>
+									<p class="text-[#08203F] font-bold text-xl mt-1">Minutes</p>
+								</div>
+								<div>
+									<div class="px-5 py-2 bg-[#08203F] rounded-xl">
+										<p id="seconds" class="text-white text-4xl">1</p>
+									</div>
+									<p class="text-[#08203F] font-bold text-xl mt-1">Seconds</p>
+								</div>
+							</div>
 						</div>
-						<div>
-							<p class="text-[12vw] font-['Allura']">
-								Mohon konfirmasi kehadiran kalian melalui
+						
+						<div
+							class="flex w-full justify-between items-center pt-[8vw] opacity-0"
+							id="tanggal"
+						>
+							<div class="py-[4vw] border-y border-y-black">
+								<p class="text-[8vw] font-bold font-['Allura'] text-[#08203F]">
+									Sabtu
+								</p>
+							</div>
+							<div>
+								<p class="text-[15vw] font-bold font-['Allura'] text-[#08203F]">
+									12
+								</p>
+							</div>
+
+							<div class="py-[4vw] border-y border-y-black">
+								<p class="text-[8vw] font-bold font-['Allura'] text-[#08203F]">
+									Oktober
+								</p>
+							</div>
+						</div>
+
+						
+
+						<div class="mt-[2vh] opacity-0 w-full text-center" id="info">
+							<p class="text-[7vw] text-center font-['Itim'] text-[#08203F ]">
+								14.00
+							</p>
+							<p class="text-[7vw] text-center font-['Itim'] text-[#08203F ]">
+								Rumah Alam
+							</p>
+							<p class="text-[7vw] text-center font-['Itim'] text-[#08203F ]">
+								Jl. Ring Road
 							</p>
 							<br />
 							<a
-								href="https://api.whatsapp.com/send?phone=6285235622445&text=Hai%2C%20Saya%20dapat%20hadir%20pada%20acara%20tersebut%20%F0%9F%98%86"
-								target="_blank"
-								class="px-[8vw] rounded-full text-white text-[7vw] font-['Luckiest_Guy'] bg-[#c5b937] py-[3vw]"
-								>Ya, Saya Hadir</a
+								href=""
+								id="buka"
+								class="px-[8vw] mt-[10vw] rounded-full text-white text-[7vw] lg:text-[1.5vw] lg:mt-[2vw] font-['Itim'] bg-[#08203F] py-[3vw] z-[20] relative lg:py-[1vw] lg:px-[3vw]"
 							>
+								Lihat Lokasi
+							</a>
+						</div>
+						<h2 class="text-[#08203F] text-[12vw] text-center mt-[10vw] font-['Allura']">Gallery Foto</h2>
+						<div class="wrapper flex w-full overflow-scroll gap-4 mt-[3vw]  text-center" style="scroll-snap-type: x mandatory;">
+							
+							<div class="card box-border px-4 py-2 w-full flex-shrink-0 " style="scroll-snap-align: center;">
+								<img
+									src="./assets/orang3.jpg"
+									alt=""
+									class="mx-auto w-[50vw] h-[80vw] object-cover rounded-xl"
+								/>
+							</div>
+							<div class="card box-border px-4 py-2 w-full flex-shrink-0" style="scroll-snap-align: center;">
+								<img
+									src="./assets/orang2.jpg"
+									alt=""
+									class="mx-auto w-[50vw] h-[80vw] object-cover rounded-xl"
+								/>
+							</div>
+							<div class="card box-border px-4 py-2 w-full flex-shrink-0" style="scroll-snap-align: center;">
+								<img
+									src="./assets/orang3.jpg"
+									alt=""
+									class="mx-auto w-[50vw] h-[80vw] object-cover rounded-xl"
+								/>
+							</div>
 						</div>
 
-						<div class="flex justify-between items-end">
-							<img
-							src="./assets/binga.png"
-							alt=""
-							class="w-[45vw] object-contain bungakiri"
-						/>
-						<!-- <img src="./assets/ikan.png" alt="" class="w-[30vw] object-contain" /> -->
-						<img
-							src="./assets/bunga.png"
-							alt=""
-							class="w-[45vw] object-contain bungakanan"
-						/>
-						</div>
+						
 					</div>
+				</div>
+				<div class="pesan mt-[15vh] px-[3vw] py-[3vh] bg-[#08203F]">
+					<h2 class="text-white text-[12vw] text-center font-['Allura']">Send Wishes</h2>
+					
+					<form action="" class="px-[6vw]">
+						<div>
+							<label for="nama" class="text-[5vw] text-white font-['Itim']">Name</label>
+							<br>
+							<input type="text" name="nama" id="nama" placeholder="Name" class="w-full px-[2vw] py-[1vh] text-white border-white border rounded-md mt-[2vw] bg-transparent">
+						</div>
+						<div class="mt-[7vw]">
+							<label for="wish" class="text-[5vw] text-white font-['Itim']">Wish</label>
+							<br>
+							<textarea type="text" name="wish" id="wish" placeholder="wish" rows="4" class="w-full px-[2vw] py-[1vh] text-white border-white border rounded-md mt-[2vw] bg-transparent" ></textarea>
+						</div>
+						<div class="mt-[7vw]">
+							<label for="att" class="text-[5vw] text-white font-['Itim']">Attendance</label>
+							<br>
+							<!-- <textarea type="text" name="att" id="att" placeholder="wish" rows="4" class="w-full px-[2vw] py-[1vh] text-white border-white border rounded-md mt-[2vw] bg-transparent" ></textarea> -->
+							 <select name="att" id="att" class="w-full px-[2vw] py-[1vh] text-white border-white border rounded-md mt-[2vw] bg-transparent">
+								<option class="bg-[#08203F]" value="hadir">Hadir</option>
+								<option value="tidak" class="bg-[#08203F]">Tidak Hadir</option>
+
+							 </select>
+						</div>
+
+						<div class="mt-[7vw]">
+							<button type="submit" class="px-[2vw] py-[1vh] w-[30%] bg-white text-[#08203F] rounded-lg">Kirim</button>
+						</div>
+					</form>
+
+					<div class="pesan mt-[7vw] px-[6vw]">
+						<!-- List Pesan  -->
+						<div class="border-t border-white py-[3vh]">
+							<div class="flex items-center justify-between">
+								<div>
+									<p class="text-[5vw] text-white font-['Itim']">Nama Ku</p>
+								</div>
+								<div class="bg-white rounded-md px-[5vw] py-[1vh]">
+									<p class="text-[4vw] text-[#08203F] font-['Itim']">Hadir</p>
+								</div>
+							</div>
+							<div>
+								<p class="text-white text-[4vw] mt-[3vh]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vero consectetur </p>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- List Pesan  -->
+						<div class="border-t border-white py-[3vh]">
+							<div class="flex items-center justify-between">
+								<div>
+									<p class="text-[5vw] text-white font-['Itim']">Nama Ku</p>
+								</div>
+								<div class="bg-white rounded-md px-[5vw] py-[1vh]">
+									<p class="text-[4vw] text-[#08203F] font-['Itim']">Hadir</p>
+								</div>
+							</div>
+							<div>
+								<p class="text-white text-[4vw] mt-[3vh]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vero consectetur </p>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+					
+					
+				</div>
+				<div class="py-[1vh] text-center">
+					<p class="text-center text-[5vw] font-['Itim']">Create by</p>
+					<a href="https://www.instagram.com/invite.you.id/" target="_blank" class="text-center text-[5vw] font-['Itim']">@invite.you.id</a>
 				</div>
 			</div>
 		</div>
-
 		<script src="./src/script.js"></script>
 	</body>
 </html>

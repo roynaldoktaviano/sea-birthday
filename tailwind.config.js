@@ -139,7 +139,7 @@ module.exports = {
         opa6: 'opa2 0.6s ease-in-out 0.9s forwards ',
         bgTurun: 'bgTurun 0.6s ease-in-out 1s forwards ',
         swim: 'berenang 8s ease-in-out infinite',
-        naik3: 'naik3 1s ease-in-out forwards',
+        naik3: 'naik3 0.3s ease-in-out forwards',
 
 
       },

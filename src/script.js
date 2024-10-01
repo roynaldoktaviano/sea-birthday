@@ -42,7 +42,7 @@ buttonBuka.addEventListener('click', ()=>{
     kuda.classList.add('animate-naik');
     // back.classList.add('animate-naik2');
     back.classList.add('animate-naik3');
-    back.classList.add('hidden');
+    // back.classList.add('hidden');
     content.classList.remove('hidden');
     cont.classList.remove('overflow-hidden');
 
@@ -55,7 +55,7 @@ buttonBuka.addEventListener('click', ()=>{
     // kue.classList.add('animate-opa5');
 
     foto.classList.add('animate-opa6');
-    content.classList.add('animate-opa1');
+    // content.classList.add('animate-opa1');
 
     body.classList.remove('overflow-hidden');
     // rsvp.classList.remove('hidden')

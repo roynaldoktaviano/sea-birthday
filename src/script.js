@@ -12,8 +12,8 @@ let foto = document.querySelector('#foto')
 // let ket = document.querySelector('#ket')
 let content = document.querySelector('#content')
 let body = document.querySelector('body')
-let kue = document.querySelector('#kue')
-let rsvp = document.querySelector('#rsvp')
+// let kue = document.querySelector('#kue')
+// let rsvp = document.querySelector('#rsvp')
 let cont = document.querySelector('#cont')
 
 
@@ -52,13 +52,13 @@ buttonBuka.addEventListener('click', ()=>{
     info.classList.add('animate-opa3');
     nama.classList.add('animate-opa4');
     // ket.classList.add('animate-opa5');
-    kue.classList.add('animate-opa5');
+    // kue.classList.add('animate-opa5');
 
     foto.classList.add('animate-opa6');
     content.classList.add('animate-opa1');
 
     body.classList.remove('overflow-hidden');
-    rsvp.classList.remove('hidden')
+    // rsvp.classList.remove('hidden')
     
 
 

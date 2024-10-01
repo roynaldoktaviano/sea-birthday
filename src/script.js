@@ -1,6 +1,6 @@
 let buttonBuka = document.querySelector('#buka')
 let tulis = document.querySelector('#tulisan')
-let awal = document.querySelector('#awal')
+// let awal = document.querySelector('#awal')
 let cumi = document.querySelector('#cumi')
 let lumba = document.querySelector('#lumba')
 let kuda = document.querySelector('#kuda')
@@ -63,9 +63,9 @@ buttonBuka.addEventListener('click', ()=>{
 
 
 
-    awal.classList.remove('bg-[#fff]');
-    awal.classList.add("bg-[url('D:/mirzaa/sea-birthdayy/assets/bg.png')]")
-    awal.classList.add("animate-bgTurun")
+    // awal.classList.remove('bg-[#fff]');
+    // awal.classList.add("bg-[url('D:/mirzaa/sea-birthdayy/assets/bg.png')]")
+    // awal.classList.add("animate-bgTurun")
 
 
 

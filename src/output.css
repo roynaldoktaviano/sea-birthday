@@ -684,6 +684,10 @@ video {
   margin-top: 35vh;
 }
 
+.mt-\[30vh\]{
+  margin-top: 30vh;
+}
+
 .box-border{
   box-sizing: border-box;
 }
